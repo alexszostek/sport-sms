@@ -74,18 +74,6 @@ for games in games_array:
     output = hTeam + '\t' + hScore + '\n' + aTeam + '\t' + aScore + '\n' + game_clock + '\n' + ("-" * 20) + '\n'
     output_string = output_string + output
     
-# output_string=  ("-" * 40) + output_string + '\n'
-
-# # Send SMS message
-# message = client.messages.create(
-#     body=output_string,
-#     from_='+18443882749',
-#     to='+19893131968'
-# )
-
-# print(message.sid)
-
-
 # Set the maximum length for each message
 max_message_length = 1500
 
